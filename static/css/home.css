@@ -1,0 +1,265 @@
+.logout-button{
+    margin-top: 10px;
+}
+
+.welcome-title{
+    color: #000000;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: cursive;
+    background-color: #cecece;
+}
+
+.create-button{
+    float: right;
+    margin-bottom: -28px;
+    margin-right: 17px;
+}
+
+.inspect-button{
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+.select-label{
+    font-size: 25px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.url-label{
+    font-size:20px;
+}
+
+body {
+  background: whitesmoke;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.tags{
+    font-size:20px;
+    color: white;
+}
+
+.close{
+float: right;
+font-size: 26px;
+font-weight: 700;
+line-height: 1;
+color: #FCFAFA;
+text-shadow: 0 1px 0 #fff;
+filter: none;
+opacity: 1.5;
+}
+
+.tag{
+    font-size:20px;
+    float: left;
+    margin-left: 50px;
+    color: white;
+}
+
+.url{
+
+}
+
+.method{
+    margin-top:-20px;
+}
+
+.created{
+    margin-top:-40px;
+}
+
+.validAuth{
+    margin-top:-60px;
+}
+
+.request{
+  background: rgba(19, 35, 47, 0.9);
+  padding: 40px;
+  max-width: auto;
+  margin: 40px auto;
+  border-radius: 4px;
+  box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+}
+
+.setting{
+    font-size: 20px;
+    float: right;
+}
+
+.settings{
+    width: 100%;
+    float: none;
+    padding-left: 30px;
+    padding-right: 0px;
+
+}
+
+.checker{
+    margin: 5px 57px 0;
+    margin-top: 1px\9;
+    line-height: normal;
+    width: 20px;
+    height: 34px;
+}
+
+.btn-setter{
+    color: #fff;
+    background-color: #85aad0;
+    border-color: #85aad0;
+}
+
+.btn-warn{
+    color: #fff;
+    background-color: #85aad0;
+    border-color: #85aad0;
+       /*background-color: #3b4caf;*/
+    /*border-color: #3b4caf;*/
+    /*background-color: #cc283d;*/
+    /*border-color: #cc283d;*/
+    /*background-color: #172533;*/
+    /*border-color: #172533;*/
+}
+
+
+.sub_fieldset{
+    padding: 10px;
+    margin: 10px 0px 0px 0px;
+    border: 1px solid #CCCCCC;
+}
+
+.sub_fieldset legend {
+    padding: 5px;
+    text-decoration: none;
+}
+
+.legend{
+    width: 27%;
+}
+#schemafile{
+    width: 40%;
+    /*margin-left: 4%;*/
+    /*margin-left: 17%;*/
+    /*margin-top: -3%;*/
+}
+
+.callname{
+    width: 24%;
+    margin-top: 10px;
+}
+
+#showschemafile{
+    width: 90%;
+    /*margin-left: 4%;*/
+    /*margin-left: 17%;*/
+    /*margin-top: -3%;*/
+}
+
+.showcallname{
+    width: 55%;
+    margin-top: 10px;
+}
+
+.editshow{
+
+}
+.call_selector{
+    position: relative;
+    top: 124px;
+    width: 70%;
+    left:10%
+}
+
+.btn-submitter {
+    color: #fff;
+    background-color: #4c6480;
+    border-color: #4c6480;
+    margin-top: 25px;
+    /*margin-left: 44px;*/
+}
+
+.btn-validater{
+    color: #fff;
+    background-color: #4c6480;
+    border-color: #4c6480;
+    margin-top: 25px;
+    position: absolute;
+    left: 85%;
+
+}
+
+.type{
+    width:10%;
+}
+
+.showtype{
+    width:20%;
+}
+/* Style the tab */
+div.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+div.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+div.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+div.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+
+    display: block;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+    /*display: table;*/
+}
+.table-cell {
+    display: table-cell;
+    width: 50%;
+}
+
+.fullwidth{
+    width: 100%;
+}
+
+.marginleft{
+    margin-left: -20px;
+}
+
+.iframestyle{
+    width:100%;
+    height:700px;
+}
+
+.backred{
+    background-color: red;
+}
+
+.xmlresult{
+    margin-top: 25px;
+    width: 182%;
+
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>FD Exposure Monitoring</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="static/css/bootstrap.min.css">
+  <link rel="stylesheet" href="static/css/home.css">
+  <script src="static/js/jquery.min.js"></script>
+  <script src="static/js/bootstrap.min.js"></script>
+  <script src="static/js/home.js"></script>
+  <link rel='shortcut icon' href='static/favicon.ico' type='image/x-icon'>
+
+</head>
+<body>
+
+<div class="container">
+  <h2><p class="bg-warning welcome-title"> &nbsp FD Exposure Monitoring</p></h2>
+    <button type="button" class="btn btn-success create-button" onclick="createUrl()">DELETE</button>
+    <button type="button" class="btn btn-success create-button" onclick="createUrl()">ADD</button>
+
+  <div class="form" action="">
+
+    <table class="table" style="margin-top: 60px;">
+    <thead>
+      <tr>
+        <th>SNo.</th>
+        <th>NomenClature</th>
+        <th><span class="marginleft">Lot No.</span></th>
+        <th>Qty. Hold</th>
+        <th>Serviceable Upto</th>
+        <th>Remarks</th>
+      </tr>
+    </thead>
+    <tbody>
+           {% for i in bin_urls  %}
+           <tr id="{{i.id}}">
+              <td><label>{{i.id}}</label></td>
+              <td><label>{{i.nomenclature}}</label></td>
+              <td><label>{{i.lotno}}</label></td>
+              <td><label>{{i.qtyhold}}</label></td>
+              <td><label>{{i.serviceupto}}</label></td>
+              <td><label>{{i.remark}}</label></td>
+           </tr>
+          {% endfor  %}
+    <div id="radio_home">
+    </div>
+    </tbody>
+  </table>
+  </div>
+</div>
+</body>
+</html>
